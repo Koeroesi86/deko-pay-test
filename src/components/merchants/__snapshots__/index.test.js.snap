@@ -1,0 +1,65 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`The Merchants component mounts 1`] = `
+<div
+  className="Merchants"
+>
+  <div
+    className="header"
+  >
+    Merchants
+  </div>
+  <div
+    className="merchant selected"
+    key="merchant-A1201"
+    onClick={[Function]}
+  >
+    <div
+      className="name"
+    >
+      Rohan LLC Shoes
+    </div>
+    <svg
+      className="arrow"
+      viewBox="0 0 48 48"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M17.17 32.92l9.17-9.17-9.17-9.17L20 11.75l12 12-12 12z"
+      />
+    </svg>
+  </div>
+  <div
+    className="merchant "
+    key="merchant-A1202"
+    onClick={[Function]}
+  >
+    <div
+      className="name"
+    >
+      Carroll - Lang Grocery
+    </div>
+    <svg
+      className="arrow"
+      viewBox="0 0 48 48"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M17.17 32.92l9.17-9.17-9.17-9.17L20 11.75l12 12-12 12z"
+      />
+    </svg>
+  </div>
+</div>
+`;
+
+exports[`The Merchants component renders 1`] = `
+<div
+  className="Merchants"
+>
+  <div
+    className="header"
+  >
+    Merchants
+  </div>
+</div>
+`;

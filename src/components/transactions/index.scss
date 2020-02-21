@@ -1,0 +1,92 @@
+.Transactions {
+  flex: 1 1 0;
+  padding: 12px 20px;
+  display: flex;
+  flex-direction: column;
+
+  .headerWrapper {
+    display: flex;
+    flex-direction: row;
+
+    .meta {
+      flex: 1 1 0;
+
+      .header {
+        font-size: 20px;
+        line-height: 45px;
+      }
+
+      .pricing {
+        display: flex;
+        flex-direction: row;
+        margin: 12px 0;
+
+        .item {
+          flex: 1 1 0;
+          text-align: center;
+        }
+      }
+    }
+
+    .pie {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      border: 1px solid #333;
+
+      .base {
+        fill: #efefef;
+      }
+
+      .slice {
+        fill: transparent;
+        stroke: #ccc;
+      }
+    }
+  }
+
+  .listing {
+    overflow: auto;
+    border: 1px solid #333;
+
+    .row {
+      display: flex;
+      flex-direction: row;
+      white-space: nowrap;
+
+      &.header {
+        background: #b2ccfb;
+      }
+
+      &.transaction:nth-child(even) {
+        background: #efefef;
+      }
+
+      .column {
+        padding: 0 12px;
+        line-height: 30px;
+        border-right: 1px solid #333;
+
+        &:last-of-type {
+          border-right: 0;
+        }
+      }
+
+      .description {
+        flex: 1 1 0;
+      }
+
+      .date {
+        width: 200px;
+      }
+
+      .price {
+        width: 100px;
+      }
+
+      .subsidy {
+        width: 100px;
+      }
+    }
+  }
+}

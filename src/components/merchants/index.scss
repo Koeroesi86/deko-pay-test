@@ -1,0 +1,41 @@
+.Merchants {
+  overflow-y: auto;
+  overflow-x: hidden;
+  padding: 12px 20px;
+
+  .header {
+    font-size: 20px;
+    line-height: 45px;
+  }
+
+  .merchant {
+    border-top: 1px solid #333;
+    font-size: 14px;
+    line-height: 35px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    cursor: pointer;
+
+    &:last-of-type {
+      border-bottom: 1px solid #333;
+    }
+
+    &.selected {
+      font-weight: bold;
+    }
+
+    .name {
+      flex: 1 1 0;
+    }
+
+    .arrow {
+      width: 14px;
+      height: 14px;
+
+      path {
+        fill: currentColor;
+      }
+    }
+  }
+}

@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`The App component renders 1`] = `
+<div
+  className="App"
+>
+  <Merchants
+    selected=""
+    setSelected={[Function]}
+  />
+  <Transactions
+    merchant=""
+  />
+</div>
+`;

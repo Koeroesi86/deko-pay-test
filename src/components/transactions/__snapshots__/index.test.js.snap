@@ -1,0 +1,209 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`The Transactions component mounts 1`] = `
+<div
+  className="Transactions"
+>
+  <div
+    className="headerWrapper"
+  >
+    <div
+      className="meta"
+    >
+      <div
+        className="header"
+      >
+        Transactions
+      </div>
+      <div
+        className="merchantName"
+      >
+        Rohan LLC Shoes
+      </div>
+      <div
+        className="pricing"
+      >
+        <div
+          className="item"
+        >
+          <div
+            className="title"
+          >
+            Count
+          </div>
+          <div
+            className="value"
+          >
+            3
+          </div>
+        </div>
+        <div
+          className="item"
+        >
+          <div
+            className="title"
+          >
+            Total
+          </div>
+          <div
+            className="value"
+          >
+            £
+            5773.00
+          </div>
+        </div>
+        <div
+          className="item"
+        >
+          <div
+            className="title"
+          >
+            Subsidy
+          </div>
+          <div
+            className="value"
+          >
+            £
+            346.38
+          </div>
+        </div>
+      </div>
+    </div>
+    <svg
+      className="pie"
+      viewBox="0 0 20 20"
+    >
+      <circle
+        className="base"
+        cx="10"
+        cy="10"
+        r="10"
+      />
+      <circle
+        className="slice"
+        cx="10"
+        cy="10"
+        r="5"
+        strokeDasharray="calc(21.599999999999998 * 31.4 / 100) 31.4"
+        strokeWidth="10"
+        transform="rotate(-90) translate(-20)"
+      />
+    </svg>
+  </div>
+  <div
+    className="listing"
+  >
+    <div
+      className="row header"
+    >
+      <div
+        className="column description"
+      >
+        Description
+      </div>
+      <div
+        className="column date"
+      >
+        Date
+      </div>
+      <div
+        className="column price"
+      >
+        Price
+      </div>
+      <div
+        className="column subsidy"
+      >
+        Subsidy
+      </div>
+    </div>
+    <div
+      className="row transaction"
+      key="transaction-0"
+    >
+      <div
+        className="column description"
+      >
+        Granite Keyboard
+      </div>
+      <div
+        className="column date"
+      >
+        2019-02-20 15:06:32
+      </div>
+      <div
+        className="column price"
+      >
+        £
+        1675.00
+      </div>
+      <div
+        className="column subsidy"
+      >
+        £
+        100.50
+      </div>
+    </div>
+    <div
+      className="row transaction"
+      key="transaction-1"
+    >
+      <div
+        className="column description"
+      >
+        Generic Wooden Bacon
+      </div>
+      <div
+        className="column date"
+      >
+        2019-03-08 17:58:17
+      </div>
+      <div
+        className="column price"
+      >
+        £
+        2540.00
+      </div>
+      <div
+        className="column subsidy"
+      >
+        £
+        152.40
+      </div>
+    </div>
+    <div
+      className="row transaction"
+      key="transaction-2"
+    >
+      <div
+        className="column description"
+      >
+        Pants
+      </div>
+      <div
+        className="column date"
+      >
+        2019-03-11 11:48:04
+      </div>
+      <div
+        className="column price"
+      >
+        £
+        1558.00
+      </div>
+      <div
+        className="column subsidy"
+      >
+        £
+        93.48
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`The Transactions component renders 1`] = `
+<div
+  className="Transactions"
+/>
+`;
